@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Keywords" content="restauracja, menu, jedzenie, kuchnia śródziemnomorska">
+		<meta name="Description" content="Nasza restauracja V.G.Food oferuje menu w klimacie kuchni śródziemnomorskiej.">
+		<meta name="Autor" content="Monika Płóciennik">
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+		<title>Restauracja V.G.Food</title>
+		<script src="scripts/wymiana.js"></script>
+		<script src="scripts/menu.js"></script>
+		<script src="scripts/slajdy.js"></script>
+	</head>
+	<body>
+		<div id="container">  <!-- główny blok strony -->
+		
+			<div id="tlo">
+			<div id="menu"> <!-- nawigacja -->
+				<div id="naglowek">
+					<div id="logo">
+					<p>V.G.Food</p>
+					</div>
+					<nav>  <!-- główne menu -->
+						<ul>
+							<li><a class="link" href="#" onclick="wymienTresc('strona_glowna');">Strona główna</a></li>
+							<li><a class="link" href="#" onclick="wymienTresc('oferta');">Oferta</a></li>
+							<li><a class="link" href="#" onclick="wymienTresc('o_nas');">O nas</a></li>
+							<li><a class="link" href="#" onclick="wymienTresc('kontakt');">Kontakt</a></li>
+						</ul>
+					</nav>
+					
+					<div id="nav2">  <!-- menu 900px -->
+						<ul>
+							<li><a class="link" href="#" onclick="wymienTresc('strona_glowna');">Strona główna</a></li>
+							<li><a class="link" href="#" onclick="wymienTresc('oferta');">Oferta</a></li>
+							<li><a class="link" href="#" onclick="wymienTresc('o_nas');">O nas</a></li>
+							<li><a class="link" href="#" onclick="wymienTresc('kontakt');">Kontakt</a></li>
+						</ul>
+					</div>
+					
+					<div id="nav3">  <!-- menu 600px -->
+						<ul>
+							<li><a href="#" onclick="openMenu()" class="przycisk"><img src="images/menu.png" alt="menu"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="zamkniecie">
+				<div id="rozwijanemenu"> <!-- menu 600px cd. -->
+					<ul>
+						<li><a class="link" href="#" onclick="wymienTresc('strona_glowna'); closeMenu();">Strona główna</a></li>
+						<li><a class="link" href="#" onclick="wymienTresc('oferta'); closeMenu();">Oferta</a></li>
+						<li><a class="link" href="#" onclick="wymienTresc('o_nas'); closeMenu();">O nas</a></li>
+						<li><a class="link" href="#" onclick="wymienTresc('kontakt'); closeMenu();">Kontakt</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<header id="slajdy">  <!-- nagłówek -->	
+				<div id="slideshow">
+					<span class="kropki" onclick="Slajd(1)"></span> 
+					<span class="kropki active" onclick="Slajd(2)"></span> 
+					<span class="kropki" onclick="Slajd(3)"></span> 
+				</div>
+			</header>
+			</div>
+
+			<main onclick="closeMenu();">			
+				<div id="strona_glowna">
+					<div id="strona_glowna1">
+						<p class="powitanie">Witaj w</p>
+						<p class="stylizowanelogo">V.G.FOOD</p>
+					</div>
+					<div id="strona_glowna0">
+						<div id="strona_glowna2">
+							<p class="p1">Nasza restauracja</p>
+							<p>V.G.FOOD to odpowiednia restauracja dla osób, które cenią sobie wykwintną kuchnię śródziemnomorską. Cechujemy się elegancją i przyjazną atmosferą. Nasz personel kieruje się pasją zarówno w przygotowaniu dań, jak i podejściu do klientów.</p>
+							<p>Za sukcesem restauracji stoi nasz wybitny szef kuchni, Giovanni Castiglione.</p>
+						</div>
+						<div id="strona_glowna3">
+							<img src="images/jedzenie3.png" alt="jedzenie">
+						</div>
+						<div id="strona_glowna4">
+							<p class="p1">Wielokrotnie nagradzani</p>
+							<p>Zostaliśmy wyróżnieni w kategorii Najlepsze Restauracje w Łodzi. Jesteśmy uznani za niezwykłe miejsce na mapie łódzkiej gastronomii.</p>
+							<p class="p1">Sprawdź ofertę naszej restauracji</p>
+							<p>Zobacz, dlaczego warto nas odwiedzić.</p>
+						</div>
+					</div>
+					<div id="strona_glowna5">
+						<h1><span>Opinie</span></h1>
+						<div class="opinia">
+							<div class="opinia1">
+								<div class="ikona">
+								</div>
+							</div>
+							<div class="opinia2">
+								<p>Odwiedzając restaurację V.G.FOOD możecie poczuć się niemal jak Wasilij Botkin, spędzając popołudniową fiestę w nasłonecznionych uliczkach Madrytu, popijając świeży sok, czy też rozkoszując się atmosferą wybrzeży Maroka przy owocach morza. Jesteście świadkami, jak znaleźć w centrum Łodzi kawałek Grecji, Włoch, czy Hiszpanii.  Kwintesencja kuchni śródziemnomorskiej jest czymś, czym warto zachwycić swoje zmysły, a ta restauracja jest jej wiernym pomnikiem.</p>
+							</div>
+						</div>
+						<div class="opinia3">
+							<p class="p1">— Polecam, Czarek Klimaszewski</p>
+						</div>
+					</div>
+				</div> <!-- strona główna -->
+				
+				<div id="oferta">
+					<h1><span>Menu</span></h1>
+					<div id="oferta1">
+						<div id="oferta2">
+							<p class="p1">Dania główne</p>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Tagliatelle al tartufo
+								</div>
+								<div class="mcena">
+									60zł
+								</div>
+								<div class="mopis">
+									Domowy makaron tagiatelle ze świeżymi truflami
+								</div>
+							</div>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Verdure arrostite
+								</div>
+								<div class="mcena">
+									52zł
+								</div>
+								<div class="mopis">
+									Plastry pieczonych warzyw przekładane kremem z koziego sera
+								</div>
+							</div>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Manzo stufato
+								</div>
+								<div class="mcena">
+									67zł
+								</div>
+								<div class="mopis">
+									Wołowina duszona w białym winie z sosem truflowym
+								</div>
+							</div>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Frutti di mare
+								</div>
+								<div class="mcena">
+									103zł
+								</div>
+								<div class="mopis">
+									Półmisek owoców morza - krewetki, ośmiornica, kalmary, dorsz
+								</div>
+							</div>
+						</div>
+						<div id="oferta3">
+							<img src="images/jedzenie2.png" alt="spaghetti">
+						</div>
+						<div class="oferta4">
+							<p class="p1">Przystawki</p>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Cozze con caviale
+								</div>
+								<div class="mcena">
+									40zł
+								</div>
+								<div class="mopis">
+									Małże Św. Jakuba podawane z kawiorem
+								</div>
+							</div>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Tartare di tonno
+								</div>
+								<div class="mcena">
+									36zł
+								</div>
+								<div class="mopis">
+									Tatar z tuńczyka
+								</div>
+							</div>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Risotto ai frutti di mare
+								</div>
+								<div class="mcena">
+									45zł
+								</div>
+								<div class="mopis">
+									Risotto z krewetkami, małżami i ośmiornicą
+								</div>
+							</div>
+						</div>
+						<div class="oferta4">
+							<p class="p1">Desery</p>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Torta al cioccolato
+								</div>
+								<div class="mcena">
+									25zł
+								</div>
+								<div class="mopis">
+									Torcik czekoladowy z lodami waniliowymi
+								</div>
+							</div>
+							
+							<div class="mdanie">
+								<div class="mnazwa">
+									Mousse al cioccolato
+								</div>
+								<div class="mcena">
+									9zł
+								</div>
+								<div class="mopis">
+									Mus z białej i ciemnej czekolady
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- oferta -->
+				
+				<div id="o_nas">
+					<h1><span>O nas</span></h1>
+					<div id="o_nas1">
+						<img src="images/chef.jpg" alt="szef">
+					</div>
+					<div id="o_nas2">
+						<p class="p1">Oferujemy Państwu niezastąpione przeżycia smakowe i przyjazną atmosferę.</p>
+						<p>Szefem kuchni w naszej restauracji jest Giovanni Castiglione. Nikt tak jak on nie czuje klimatu kuchni śródziemnomorskiej. Dania oferowane w tym miejscu to cenione przez krytyków przystawki, dania główne oraz desery i napoje.</p>
+						<p>Jeśli szukasz włoskiego klimatu w Łodzi, zajrzyj do naszej restauracji!</p>
+					</div>
+					<div id="o_nas4">
+						<div id="o_nas4a">
+							<p class="p1">Nasza kuchnia jest doceniana przez krytyków już od 8 lat.</p>
+							<p>Na podstawie naszego wieloletniego doświadczenia opracowaliśmy receptury, które są doceniane przez gości z całego świata. 
+							Mieliśmy przyjemność zadowolić w tym czasie podniebienia wielu klientów, wśród których możemy wyróżnić Gordona Ramsaya oraz Magdę Gessler.</p>
+						</div>
+						<div id="o_nas4b">
+							<div id="o_nas4c">
+								<p class="p1">Zostaliśmy zdobywcami Gwiazdki Michelin w 2018 roku.</p>
+								<p>26 marca zaprezentowano najnowsze wydanie kulinarnego Czerwonego Przewodnika Michelin. Inspektorzy Michelin przyznali nam Gwiazdkę Michelin, która od wielu lat jest uznawana za najwyższe wyróżnienie sztuki kulinarnej i jednocześnie stanowi marzenie właścicieli restauracji.</p>
+							</div>
+						</div>
+					</div>
+					<div id="o_nas3">
+						<p class="p1">Zapraszamy do odwiedzin przez cały tydzień!</p>
+						<img src="images/przyprawy.png" alt="przyprawy">
+					</div>
+				</div> <!-- o nas -->
+				
+				<div id="kontakt">
+					<h1><span>Kontakt</span></h1>
+					<div id="kontakt1">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.8502912357408!2d19.483494715267064!3d51.77234399911845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb3a3da1c845%3A0x65adee2b0f406cb8!2zWmVsd2Vyb3dpY3phIDE0LCDFgcOzZMW6!5e0!3m2!1spl!2spl!4v1527963168541" width="400" height="300" style="border:0" allowfullscreen></iframe>
+					</div>
+					
+					<div id="kontakt2">
+						<p class="p1">Restauracja V.G.Food</p>
+						<p>ul. Zelwerowicza 14 <br>
+						90-147 Łódź <br>
+						Telefon: +48 22 424 53 13 <br>
+						e-mail: kontakt@vgfood.pl</p>
+					</div>
+					
+					<div id="kontakt3">
+						<p class="p1">Godziny otwarcia:</p>
+						<p>Pn.-Czw.: 14:00 – 22:00<br>
+						Pt.: 14:00 – 24:00<br>
+						Sb.-Nd.: 12:00 – 24:00</p>
+					</div>
+				</div> <!-- kontakt -->
+			</main> 
+			
+			<footer>
+				<div id="copyright">© Copyright V.G.Food - Design by Monika Płóciennik</div>
+			</footer>
+			
+		</div> <!-- główny blok strony -->
+	</body>
+</html>

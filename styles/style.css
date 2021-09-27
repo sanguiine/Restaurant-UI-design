@@ -1,0 +1,945 @@
+@font-face {
+    font-family: 'amethystregular';
+    src: url('../fonts/amethyst-webfont.woff2') format('woff2'),
+         url('../fonts/amethyst-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+	margin: 0% auto;
+	margin-top: -20px;
+	font: 14px Century Gothic, Verdana, sans-serif;
+	color: black;
+	background-color: #F1EBE4;
+	background-position: center;
+}
+
+#menu {
+	height: 100px;
+	background-color: #A7988B;
+	width: 100%;
+}
+
+#tlo {
+	background-color: #A7988B;
+}
+
+#naglowek {
+	margin: 0 auto;
+	width: 900px;
+}
+
+#logo {
+	font-size: 40px;
+	font-family: amethystregular, Verdana, sans-serif;
+	color: white;
+	width: 480px;
+	float: left;
+}
+
+nav {
+	width: 400px;
+	color: white;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	float: left;
+	font-size: 17px;
+	font-family: Century Gothic, Verdana, sans-serif;
+}
+
+nav a {
+	display: block;
+	line-height: 20px;
+	padding-top: 50px;
+	padding-left: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #E5DFD9;
+}
+
+
+#nav2 {
+	float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+	display: none;
+}
+
+#nav2 ul {
+   clear: left;
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   left: 50%;
+   text-align: center;
+}
+
+#nav2 ul li {
+   display: block;
+   float: left;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   right: 50%;
+   padding-top: 60px;
+}
+
+#nav2 ul li a {
+   display: block;
+   padding: 0 10px;
+   color: white;
+   text-decoration: none;
+   line-height: 20px;
+}
+
+#nav2 ul li a:hover {
+   color: #E5DFD9;
+}
+	
+#nav3 {
+	display: none;
+	text-align: right;
+	padding: 10px;
+}
+
+#nav3 ul {
+	list-style: none;
+}
+
+#nav3 img {
+	text-align: right;
+}
+
+#rozwijanemenu {
+	display: none;
+	width: 100%;
+	background-color: #A7988B;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	padding: 0;
+}
+
+#rozwijanemenu ul {
+	list-style: none; 
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+#rozwijanemenu ul li {
+	display: block;
+	padding: 0;
+	line-height: 30px;
+	border-bottom: 1px solid white;
+}
+
+#rozwijanemenu ul li:last-child {
+	border-bottom: 0px solid white;
+}
+
+#rozwijanemenu ul li a {
+	text-decoration: none; 
+	color: white;
+	display: block;
+}
+
+#rozwijanemenu ul li a:hover {
+	display: block;
+	background-color: #9B8D81;
+}
+
+header {
+	margin: 0;
+	background-color: #A7988B;
+	background-image: url(../images/naglowek.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	position: relative;
+}
+
+#slideshow {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	position: absolute; 
+	bottom: 10px;
+}
+
+.kropki {
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: white;
+	border: 1px solid #6B6159;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	box-shadow: 1px 1px 2px black, 0 0 10px black;
+}
+
+.active, .kropki:hover {
+	background-color: #6B6159;
+	border: 1px solid #6B6159;
+	box-shadow: 1px 1px 2px black,0 0 10px black;
+}
+
+main {
+	background-color: #F1EBE4;
+	width: 870px;
+	margin: 0 auto;
+}
+
+#design {
+	float: right;
+}
+
+#strona_glowna {
+	display: block;
+	width: 870px;
+	margin: 0 auto;
+}
+
+#strona_glowna1 {
+	padding-top: 20px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.powitanie {
+	font-family: Edwardian Script ITC, Verdana, sans-serif;
+	font-size: 40px;
+	margin: 0 auto;
+}
+
+.stylizowanelogo {
+	font-family: amethystregular, Verdana, sans-serif;
+	font-size: 40px;
+	margin: 0 auto;
+}
+
+#strona_glowna0 {
+	margin-top: 30px;
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+#strona_glowna2 {
+	width: 33%;
+	float: left;
+}
+
+#strona_glowna3 {
+	width: 33%;
+	float: left;
+	text-align: left;
+}
+
+#strona_glowna3  img{
+	width: 90%;
+}
+
+#strona_glowna4 {
+	width: 33%;
+	float: left;
+}
+
+#strona_glowna5 {
+	padding-top: 20px;
+	clear: both;
+	width: 100%;
+}
+
+#strona_glowna5 h1 {
+    border-bottom: 1px solid #B6A597;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#strona_glowna5 h1 span {
+    background: #F1EBE4;
+    padding: 0 15px;
+    position: relative;
+	font-weight: normal;
+    top: 20px;
+	font-family: Edwardian Script ITC, Verdana, sans-serif;
+	font-size: 40px;
+}
+
+.opinia {
+	clear: both;
+	width: 100%;
+	padding-top: 40px;
+}
+
+.opinia1 {
+	width: 15%;
+	float: left;
+}
+
+.ikona {
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-image: url(../images/ikona.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.opinia2 {
+	width: 85%;
+	float: left;
+}
+
+.opinia3 {
+	clear: both;
+	width: 100%;
+	float: left;
+}
+
+#oferta {
+	display: none;
+	width: 870px;
+	margin: 0 auto;
+}
+
+#oferta h1 {
+    border-bottom: 1px solid #B6A597;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#oferta h1 span {
+    background: #F1EBE4;
+    padding: 0 15px;
+    position: relative;
+	font-weight: normal;
+    top: 20px;
+	font-family: Edwardian Script ITC, Verdana, sans-serif;
+	font-size: 40px;
+}
+
+#oferta1 {
+	width: 100%;
+	padding-top: 40px;
+	margin: 0 auto;
+	display: block;
+}
+
+#oferta2 {
+	width: 60%;
+	float: left;
+}
+
+.mdanie {
+	margin: 35px 0;
+}
+
+.mnazwa {
+	font-weight: bold;
+	border-bottom: 1px dotted #B6A597;
+}
+
+.mcena {
+	float: right;
+	font-weight: bold;
+	font-family: Arial;
+	margin-top: -20px;
+}
+
+.mopis {
+	font-style: italic;
+}
+
+#oferta3 {
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+
+#oferta3 img{
+	width: 80%;
+}
+
+.oferta4 {
+	clear: both;
+	width: 100%;
+	float: left;
+}
+
+#o_nas {
+	display: none;
+	width: 870px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#o_nas h1 {
+    border-bottom: 1px solid #B6A597;
+    color: #000;
+    font-size: 18px;
+    position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#o_nas h1 span {
+    background: #F1EBE4;
+    padding: 0 15px;
+    position: relative;
+	font-weight: normal;
+    top: 20px;
+	font-family: Edwardian Script ITC, Verdana, sans-serif;
+	font-size: 40px;
+}
+
+#o_nas1 img {
+	width: 350px;
+}
+
+.p1 {
+	font-size: 20px;
+}
+
+#o_nas1 {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+#o_nas2 {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	width: 50%;
+	float: left;
+	text-align: justify;
+}
+
+#o_nas3 {
+	clear: both;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 100%;
+	margin-bottom: -3px;
+}
+
+#o_nas3 img {
+	width: 100%;
+}
+
+#o_nas4 {
+	width: 100%;
+	float: left;
+	text-align: justify;
+}
+
+#o_nas4a {
+	width: 350px;
+	float: left;
+}
+
+#o_nas4b {
+	width: 520px;
+	float: left;
+}
+
+#o_nas4c {
+	padding-left: 85px;
+	float: left;
+}
+	
+#kontakt {
+	text-align: center;
+	display: none;
+	width: 870px;
+	margin: 0 auto;
+}
+
+#kontakt h1 {
+    border-bottom: 1px solid #B6A597;
+    color: #000;
+    font-size: 18px;
+    position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#kontakt h1 span {
+    background: #F1EBE4;
+    padding: 0 15px;
+    position: relative;
+	font-weight: normal;
+    top: 20px;
+	font-family: Edwardian Script ITC, Verdana, sans-serif;
+	font-size: 40px;
+}
+
+#kontakt1 {
+	padding-top: 40px;
+	width: 60%;
+	float: left;
+	padding-bottom: 20px;
+}
+
+#kontakt2 {
+	padding-top: 100px;
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+
+#kontakt3 {
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+
+footer {
+	background-color: #A7988B;
+	clear: both;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 24px;
+	color: white;
+	padding-top: 8px;
+	text-align: center;
+}
+
+#zamkniecie {
+	display: none;
+}
+
+@media only screen and (max-width: 900px) {
+	#container {
+		font: 11px Century Gothic, Verdana, sans-serif;
+	}
+	
+	#naglowek {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#logo {
+		font-size: 30px;
+		width: 100%;
+		height: 12px;
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	#nav2 {
+		font-size: 13px;
+		display: block;
+	}
+	
+	#nav3 {
+		display: none;
+	}
+	
+	#rozwijanemenu {
+		display: none;
+	}
+	
+	header {
+		height: 200px;
+	}
+	
+	main {
+		width: 580px;
+	}
+	
+	#strona_glowna {
+		width: 580px;
+	}
+	
+	#strona_glowna1 {
+		width: 170px;
+	}
+	
+	.powitanie {
+		font-size: 30px;
+	}
+	
+	.stylizowanelogo {
+		font-size: 25px;
+	}
+	
+	.p1 {
+		font-size: 15px;
+	}
+	
+	#strona_glowna3 {
+		padding-top: 40px;
+	}
+	
+	#strona_glowna5 h1 span {
+		font-size: 27px;
+		top: 15px;
+	}
+	
+	.opinia1 {
+		width: 20%;
+	}
+	
+	.ikona {
+		width: 90px;
+		height: 90px;
+	}
+	
+	.opinia2 {
+		width: 80%;
+	}
+	
+	#oferta {
+		width: 580px;
+	}
+	
+	#oferta h1 span {
+		font-size: 27px;
+		top: 15px;
+	}
+	
+	.mcena {
+		margin-top: -15px;
+	}
+
+	#o_nas {
+		width: 580px;
+	}
+	
+	#o_nas h1 span {
+		font-size: 27px;
+		top: 15px;
+	}
+	
+	#o_nas1 img {
+		width: 250px;
+	}
+	
+	#o_nas2 {
+		padding-top: 22px;
+	}
+	
+	#o_nas4 {
+		width: 100%;
+		float: left;
+		text-align: justify;
+	}
+
+	#o_nas4a {
+		width: 250px;
+		float: left;
+	}
+
+	#o_nas4b {
+		width: 330px;
+		float: left;
+	}
+
+	#o_nas4c {
+		padding-left: 39px;
+		float: left;
+	}
+
+	#kontakt {
+		width: 580px;
+	}
+	
+	#kontakt h1 span {
+		font-size: 27px;
+		top: 15px;
+	}
+	
+	#kontakt1 {
+		width: 100%;
+		text-align: center;
+	}
+	
+	#kontakt2 {
+		padding-top: 0;
+		padding-bottom: 5px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#kontakt3 {
+		padding-bottom: 20px;
+	}
+	
+	footer {
+		font-size: 9px;
+		height: 14px;
+		padding-top: 3px;
+	}
+	
+	#zamkniecie {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#container {
+		font: 8px Century Gothic, Verdana, sans-serif;
+		width: 100%;
+	}
+	
+	#menu {
+		height: 72px;
+		padding-top: 5px;
+	}
+	
+	#naglowek {
+		margin: 0 auto;
+		text-align: left;
+	}
+	
+	#logo {
+		font-size: 20px;
+		height: 10px;
+		margin-top: 15px;
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	#nav2 {
+		display: none;
+	}
+	
+	#nav3 {
+		display: block;
+	}
+	
+	#nav3 img {
+		margin-top: -5px;
+	}
+	
+	#rozwijanemenu {
+		display: none;
+		font-size: 15px;
+		text-align: center;
+	}
+	
+	header {
+		height: 100px;
+		width: 100%;
+	}
+	
+	#slideshow {
+		
+	}
+	
+	main {
+		width: 100%;
+	}
+	
+	#strona_glowna {
+		width: 95%;
+	}
+	
+	#strona_glowna1 {
+		width: 130px;
+	}
+	
+	.powitanie {
+		font-size: 20px;
+	}
+	
+	.stylizowanelogo {
+		font-size: 20px;
+	}
+	
+	.p1 {
+		font-size: 12px;
+	}
+	
+	#strona_glowna2 {
+		width: 100%;
+	}
+	
+	#strona_glowna3 {
+		width: 100%;
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	#strona_glowna3 img {
+		width: 40%;
+	}
+	
+	#strona_glowna4 {
+		width: 100%;
+	}
+	
+	#strona_glowna5 h1 span {
+		font-size: 20px;
+		top: 10px;
+	}
+	
+	.opinia {
+		padding-top: 5px;
+	}
+	
+	.opinia1 {
+		display: none;
+	}
+	
+	.opinia2 {
+		width: 100%;
+		text-align: justify;
+	}
+	
+	#oferta {
+		width: 95%;
+	}
+	
+	#oferta h1 span {
+		font-size: 20px;
+		top: 10px;
+	}
+	
+	#oferta1 {
+		padding-top: 20px;
+	}
+	
+	#oferta2 {
+		width: 100%;
+	}
+	
+	#oferta3 {
+		display: none;
+	}
+	
+	.mcena {
+		margin-top: -10px;
+	}
+
+	#o_nas {
+		width: 95%;
+	}
+	
+	#o_nas h1 span {
+		font-size: 20px;
+		top: 10px;
+	}
+	
+	#o_nas1 {
+		width: 100%;
+		text-align: center;
+	}
+	
+	#o_nas1 img{
+		width: 50%;
+	}
+	
+	#o_nas2 {
+		padding-top: 10px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#o_nas3 img {
+		display: none;
+	}
+	
+	#o_nas3 {
+		padding-bottom: 10px;
+	}
+	
+	#o_nas4 {
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+
+	#o_nas4a {
+		width: 100%;
+		float: left;
+	}
+
+	#o_nas4b {
+		width: 100%;
+		float: left;
+	}
+
+	#o_nas4c {
+		padding-left: 0px;
+		float: left;
+	}
+
+	#kontakt {
+		width: 95%;
+	}
+	
+	#kontakt h1 span {
+		font-size: 20px;
+		top: 10px;
+	}
+	
+	#kontakt1 {
+		display: none;
+	}
+	
+	#kontakt2 {
+		padding-top: 20px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#kontakt3 {
+		padding-bottom: 20px;
+	}
+	
+	footer {
+		font-size: 6px;
+		height: 12px;
+		width: 100%;
+	}
+	
+	#zamkniecie {
+		display: block;
+	}
+}
